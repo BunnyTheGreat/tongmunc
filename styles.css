@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e7fae0; /* Light blue background */
+    text-align: center; /* Center all text */
+}
+
+header {
+    background-color: #5ea377; /* Dark green color from the logo */
+    color: #fff;
+    padding: 20px 0; /* Added padding for a more professional look */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Added padding for a more professional look */
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the logo and text */
+    flex-grow: 1; /* Make the logo section take up space */
+}
+
+.logo img {
+    height: 50px; /* Adjust size as needed */
+    margin-right: 10px;
+}
+
+nav {
+    flex-grow: 2; /* Make the nav section take up more space */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the navigation links */
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#home {
+    height: 100vh;
+    background-image: url('background.jpg'); /* Replace with actual background image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px; /* Added padding for a more professional look */
+}
+
+.home-content h2 {
+    font-size: 3em;
+    margin: 0;
+    color: #ffffff; /* Dark green color from the logo */
+}
+
+.home-content p {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #ffffff; /* Dark green color from the logo */
+}
+
+section {
+    padding: 40px; /* Added padding for a more professional look */
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px; /* Added padding for a more professional look */
+    background-color: #004d40; /* Dark green color from the logo */
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Specific styles for the conferences page */
+#conferences h2, #resources h2, #about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px; /* Added space below the title */
+    color: #004d40; /* Dark green color from the logo */
+}
+
+/* Styles for the About page */
+#about .about-box {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content */
+    background-color: #f0f0f0;
+    padding: 30px; /* Increased padding for larger boxes */
+    margin: 20px 0; /* Space between the boxes */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Align text to the left */
+}
+
+#about .profile-image {
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
+    border-radius: 50%; /* Circle for the image */
+    background-color: #d9d9d9; /* Placeholder background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about .profile-image p {
+    margin: 0;
+}
+
+#about .profile-details {
+    flex-grow: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about .profile-details p {
+    margin: 0;
+}
+
+.conference-box, .resource-box {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content */
+    background-color: #f0f0f0;
+    padding: 30px; /* Increased padding for larger boxes */
+    margin: 20px 0; /* Space between the boxes */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Align text to the left */
+}
+
+.conference-box img, .resource-box .video-placeholder {
+    height: 150px; /* Adjusted size for videos */
+    width: 200px; /* Adjusted size for videos */
+    margin-right: 20px;
+    border-radius: 10px; /* Rounded corners */
+    background-color: #d9d9d9; /* Placeholder background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resource-box .video-placeholder p {
+    margin: 0;
+}
+
+.conference-details, .resource-details {
+    flex-grow: 1;
+}
+
+.conference-details p, .resource-details p {
+    margin: 5px 0; /* Reduced margin for tighter layout */
+}
+
+.conference-details a, .resource-details a {
+    color: #004d40; /* Dark green color from the logo */
+    text-decoration: none;
+    font-weight: bold;
+}
