@@ -65,10 +65,11 @@ nav ul li a {
     color: #fff;
     text-align: center;
     padding: 20px; /* Added padding for a more professional look */
+    font-size: 25px;
 }
 
 .home-content h2 {
-    font-size: 3em;
+    font-size: 25px;
     margin: 0;
     color: #ffffff; /* Dark green color from the logo */
 }
@@ -401,3 +402,255 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: white;
+    padding: 10px 0;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header h1 {
+    margin: 0;
+    margin-left: 10px;
+    color: white;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    padding: 8px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.navbar-toggler.custom-toggler {
+    border-color: transparent;
+}
+
+.navbar-toggler.custom-toggler .navbar-toggler-icon {
+    padding: 2;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%2888, 88, 88, 0.8%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+#home {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#home h2 {
+    margin-top: 0;
+    font-size: 36px;
+}
+
+#home p {
+    font-size: 18px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    header .logo img {
+        height: 40px;
+    }
+    
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 10px;
+    }
+}
+
+#conferences {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#conferences h2 {
+    margin-top: 0;
+    font-size: 36px;
+    color: #004d40;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    color: #004d40;
+}
+
+#resources {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#resources h2 {
+    margin-top: 0;
+    font-size: 36px;
+    color: #004d40;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    color: #004d40;
+}
+
+.btn-primary {
+    background-color: #004d40;
+    border: none;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #003329;
+}
+
+.video-placeholder {
+    color: #004d40;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    header .logo img {
+        height: 40px;
+    }
+    
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 10px;
+    }
+}
+
+
+.logo img {
+    max-height: 50px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #cfd8dc !important;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #333;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.contact-item {
+    margin-bottom: 30px;
+}
+
+.contact-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.contact-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    font-size: 16px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #004d40;
+    border-color: #004d40;
+}
+
+.btn-primary:hover {
+    background-color: #00332b;
+    border-color: #00332b;
+}
+
